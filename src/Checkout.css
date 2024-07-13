@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.checkout_add{
+    width: 100%;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+    object-fit: contain;
+}
+
+.checkout h1{
+    margin: 1rem;
+}
+
+.checkout{
+    display: flex;
+}
+
+.checkout__right{
+    background-color: #EAEDED;
+}
+.subtotal{
+    display: flex;
+    flex-direction: column;
+  /* //  align-items: center; */
+  width:300px;
+  /* height: 100px; */
+  justify-content: space-between;
+  background-color: white;
+  margin:0.5rem 0.5rem;
+  padding: 1rem;
+  line-height: 2;
+}
+
+small{
+    display: flex;
+    align-items: center;
+}
+small input{
+    margin-right: .5rem;
+}
+
+.subtotal button{
+    width: 100%;
+    margin: 1rem 0.5rem;
+    object-fit: contain;
+    height: 2rem;
+    background-color: #FFA41C;
+    border-radius: .125rem;
+    border: none;
+    padding: 0.25rem 0.5rem;
+}
+
+.checkout__left{
+    flex-grow: 1;
+}

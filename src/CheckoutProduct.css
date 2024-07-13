@@ -1,0 +1,17 @@
+.checkoutProduct{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.checkoutProduct__img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.checkoutProduct__info > button{
+    background-color: orange;
+    padding: .25rem .5rem;
+    border-radius: 5%;
+    border: none;
+}
